@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import { createContext, useContext } from "react";
 import Task, {TaskType} from "./Task";
-import ButtonAction from "./ButtonAction";
+import ButtonAction from "./ui/button_action/ButtonAction";
 import "./ListTasks.css"
 
 const initialTasksState: TaskType[] = [];

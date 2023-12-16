@@ -1,9 +1,9 @@
 import {ChangeEvent, EventHandler, useContext} from "react";
 import {ListContext} from "./ListTasks";
-import ButtonTick from "./ButtonTick";
-import Input from "./Input";
-import ButtonAction from "./ButtonAction";
-import InputDate from "./InputDate";
+import ButtonTick from "./ui/button_action/ButtonTick";
+import Input from "./ui/Input";
+import ButtonAction from "./ui/button_action/ButtonAction";
+import InputDate from "./ui/InputDate";
 import "./Task.css"
 
 export type TaskType = {
