@@ -1,0 +1,11 @@
+.Input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.Input:focus {
+    outline: none;
+    border: none !important;
+}

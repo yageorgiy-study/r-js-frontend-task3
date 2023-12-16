@@ -1,0 +1,29 @@
+.Button {
+    border: 1px solid #BBBBBB;
+    border-radius: 8px;
+    background: #d5d5ff;
+    width: 64px;
+    height: 64px;
+}
+
+.Button:hover {
+    background: rgba(213, 213, 255, 0.59) !important;
+}
+
+.Button:active {
+    background: rgba(111, 111, 132, 0.59) !important;
+}
+
+/* Tick */
+
+.Button.Tick {
+    border: 1px solid #BBBBBB;
+    border-radius: 8px;
+    background: #d5f2ff;
+    width: 64px;
+    height: 64px;
+}
+
+.Button.Tick.Active {
+    background: #e5ffd5;
+}

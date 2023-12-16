@@ -1,0 +1,14 @@
+.ListTasks {
+    margin-top: 16px;
+    padding: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 1200px;
+    width: 100%;
+    border: 1px solid #BBBBBB;
+    border-radius: 8px;
+}
